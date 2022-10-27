@@ -1,0 +1,40 @@
+body{
+    background-color: lightpink;
+    font-family:'Courier New', Courier, monospace;
+}
+div{
+    background-color: lightcoral;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 800;
+    text-align:justify;
+    box-shadow: 5px 5px 40px;
+
+}
+h1 {
+    text-align: center;
+    text-shadow: 0px 0px 26px;
+}
+input{
+    text-align: center;
+    border-radius: 10px;
+    background-color: lightpink;
+}
+
+.btn a {
+    padding: 10px;
+    background-color: pink;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+}
+.btn a:hover{
+    background-color: tomato;
+    opacity: 0.9;
+}
+.btn{
+    box-shadow: 0px 0px 0px;
+}

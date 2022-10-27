@@ -1,0 +1,43 @@
+body {
+    background-color: cornflowerblue;
+    font-family:'Courier New', Courier, monospace;
+    font-size: larger;
+
+}
+div{
+    background-color: rgb(93, 87, 132);
+    padding: 20px;
+    margin: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 800;
+
+    box-shadow: 5px 5px 40px;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 0px 0px 30px;
+}
+
+input{
+    text-align: center;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    color: black;
+}
+.btn a {
+    padding: 10px;
+    background-color:cornflowerblue;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+}
+.btn a:hover{
+    background-color:lightskyblue;
+    opacity: 0.9;
+}
+.btn{
+    box-shadow: 0px 0px 0px;
+}
