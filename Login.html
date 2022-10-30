@@ -6,20 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class Test</title>
     <link rel="stylesheet" href="Login.css">
+    <script>
+        function logfun(){
+        var a = document.getElementById('uname').value;
+        var b = document.getElementById('upass').value;
+        var name = "faiz";
+        var pass = "18";
+        if ((a!=name) && (b==pass)){
+           alert('wrong username');
+        }else if((a==name) && (b!=pass)){
+            alert('wrong password');
+        }else if((a==name) && (b==pass)){
+            alert('Login Success');
+        }else if ((a!=name) && (b!=pass)){
+            alert('invalid username and password');
+        }
+        else{
+            alert('Invalid password')
+        }
+    }
+    </script>
 </head>
 <body>
     <div id = in>
         <h1>Login Form</h1>
         <form>
             <label for="uname">First Name</label><br>
-            <input type="text" id="uname" placeholder="Enter name"><br>
+            <input type="text" id="uname" placeholder="Enter name" required><br>
             <label for="upass">Password:</label><br>
-            <input type="password" id="upass" placeholder="Enter password">
+            <input type="password" id="upass" placeholder="Enter password" required>
         </form>
         <div class="btn">
-             <a href="">Login</a>
+             <a href="" onclick="logfun()" type="submit">Login</a>
              <a href="Signup.html">Signup</a>
         </div>
+        <p id="res"></p>
     </div>
 </body>
 </html>
